@@ -1,3 +1,4 @@
+
 ## First、前端项目： todo-list-frontend
 
 1、安装依赖 ```npm i```
@@ -32,7 +33,9 @@ const pool = mysql.createPool({
 });
 ```
 
-3、启动项目 ```npm run dev```
+3、更改redis配置 /lib/redis.ts，默认本地 127.0.0.1:6379
+
+4、启动项目 ```npm run dev```
 
 ### Last、接口说明
 ```
